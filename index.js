@@ -40,11 +40,11 @@ Router.prototype.delete = function(route, cb) {
 
 Router.prototype.route = function() {
   return function(req, res) {
-    if (!this.routes.hasOwnProperty(req.method)) {
-      throw 'Not a valid REST route';
-    } else {
+    try {
       var routeFunction = this.routes[req.method][req.url];
       routeFunction(req, res);
+    } catch(err) {
+      throw req.method + ' is not a valid REST verb'
     }
   }.bind(this);
 };
