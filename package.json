@@ -1,0 +1,33 @@
+{
+  "name": "vanilla-http-router",
+  "version": "0.1.0",
+  "description": "Simple routing for Node.js HTTP server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studstill/vanilla-http-server.git"
+  },
+  "keywords": [
+    "Router",
+    "Node",
+    "HTTP",
+    "Server"
+  ],
+  "author": "Jason Studstill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/studstill/vanilla-http-server/issues"
+  },
+  "homepage": "https://github.com/studstill/vanilla-http-server#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "mocha": "^2.4.5"
+  }
+}
