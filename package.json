@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/studstill/vanilla-http-server.git"
+    "url": "git+https://github.com/studstill/vanilla-http-router.git"
   },
   "keywords": [
     "Router",
@@ -22,9 +22,9 @@
   "author": "Jason Studstill",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/studstill/vanilla-http-server/issues"
+    "url": "https://github.com/studstill/vanilla-http-router/issues"
   },
-  "homepage": "https://github.com/studstill/vanilla-http-server#readme",
+  "homepage": "https://github.com/studstill/vanilla-http-router#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
